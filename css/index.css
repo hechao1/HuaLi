@@ -6025,7 +6025,7 @@ a.badge:focus {
     }
     .jumbotron h1,
     .jumbotron .h1 {
-        font-size: 63px;
+        font-size: 40px;
     }
 }
 
@@ -8164,7 +8164,8 @@ a:hover {
 }
 
 #header>.img>img {
-    min-height: 300px;
+    /*min-height: 300px;*/
+    max-height:450px;
     width: 100%;
 }
 
@@ -8377,16 +8378,50 @@ li {
     border-bottom: 2px solid #000;
 }
 
-
-/* .ws {
-    overflow: hidden;
+.h3_title {
+    background: none;
+    border-bottom: 1px dashed #ddd;
+    margin: 10px 0 0;
+    padding: 0 0 3px;
+}
+.h3_title a{
+    font-size: 15px;
+}
+.time{
+    color: #717171;
+    font-size: 13px !important;
+    padding-top: 3px;
+        float: right;
     white-space: nowrap;
-    text-overflow: ellipsis;
-} */
+}
 
 
-/* .news-more {
-    float: right;
-    color: #005ccc;
-    font-size: 16px;
-} */
+.i-title {
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid #cacbcc;
+}
+
+.i-title h3 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    padding: 0 10px;
+    border-bottom: 3px solid #005ccc;
+    margin-bottom: -2px;
+    line-height: 50px;
+}
+.new p{
+    font-size: 15px;
+}
+
+.news_fy_l a{
+    color: #000;
+}
+.news_fy_l ul{
+    padding: 0 0;
+}
+.news_fy_l{
+padding-top: 20px;
+    border-top: 1px solid #cacbcc;
+}

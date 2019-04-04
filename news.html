@@ -4,7 +4,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <title>新闻资讯-湖州华立</title>
+    <title>新闻动态-湖州华立</title>
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link href="dist/mfb.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" />
@@ -28,7 +28,7 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="index.html">首页</a></li>
+                        <li><a href="index.html">首页</a></li>
                         <li><a href="product.html">产品</a></li>
                         <li><a href="about.html">关于</a></li>
                         <li><a href="contact.html">联系</a></li>
@@ -39,12 +39,75 @@
             </div>
         </nav>
         <div class="img">
-            <img src="img/news.jpg" />
+            <img src="img/new.jpg" />
         </div>
     </header>
     <div id="main" class="container-fluid">
-        
+        <!--标题-->
+        <div class="jumbotron topName" style="margin-top: 20px;">
+            <div class="container">
+                <hgroup>
+                    <h1>行业动态</h1>
+                    <h4>与时俱进，最前沿的技术...</h4>
+                </hgroup>
+            </div>
+        </div>
+        <!--内容-->
+        <div class="content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3 hidden-sm hidden-xs">
+                        <ul class="list-group group_name">
+                        <li><a class="list-group-item " href="#tab2" data-toggle="tab">2.行业资讯</a></li>
+                            <li class="active "><a class="list-group-item " href="#tab1" data-toggle="tab">1.企业要闻</a></li>
+                        </ul>
+                    </div>
+                    <div class=" hidden-md hidden-lg">
+                        <ul class="nav nav-tabs nav_solid">
+                        <li><a class="list-group-item " href="#tab2" data-toggle="tab">2.行业资讯</a></li>
+                            <li class="active"><a class="list-group-item " href="#tab1" data-toggle="tab">1.企业要闻</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 info-content tab-content">
+                    <div class=" active tab-pane" id="tab2">
+                             <h3 class="h3_title ">
+                            <a href="news01.html">概念上钣金与冲压的区别...</a>
+                            <span class="time">2018-08-15</span>
+                            </h3>
+                            <h3 class="h3_title ">
+                            <a href="news02.html">关于钣金加工工艺的概述...</a>
+                            <span class="time">2018-08-15</span>
+                            </h3>
+                            <h3 class="h3_title ">
+                            <a href="news03.html">什么是激光汽化切割加工...</a>
+                            <span class="time">2018-08-15</span>
+                            </h3>
+                            <h3 class="h3_title ">
+                            <a href="news04.html">激光切割跟传统钣金切割有什么不同？...</a>
+                            <span class="time">2018-08-15</span>
+                            </h3>
+                        </div>
+                        <div class="tab-pane" id="tab1">
+                            <h3 class="h3_title ">
+                            <a href="">公司战略</a>
+                            <span class="time">2017-05-15</span>
+                            </h3>
+                            <h3 class="h3_title ">
+                            <a href="">公司战略</a>
+                            <span class="time">2017-05-15</span>
+                            </h3>
+                            <h3 class="h3_title ">
+                            <a href="">公司战略</a>
+                            <span class="time">2017-05-15</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!--侧面滚动监听-->
     <div id="foot">
         <div class="container">
             <div class="row">
@@ -64,8 +127,12 @@
             </div>
         </div>
     </div>
+   
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/cp.js"></script>
+    
+    
 </body>
 
 </html>
